@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+body{
+  background: white;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.register{
+/*  max-width: -578px;*/
+  width: 900vw;
+  display:flex;
+/*  border: 1px solid #e9ecef;full border*/
+  border-radius: 5px;
+  left: 250px;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+}
+
+.register span{
+  color: #adb5bd;
+}
+
+#form{
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+#form >  input, .btn{
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+}
+
+#form > .title{
+  text-align: left;
+}
+
+#form > .firstname{
+  text-align: left;
+}
+#form > .lastname{
+  text-align: left;
+}
+#form > .address{
+  text-align: left;
+}
+#form > .postalcode{
+  text-align: left;
+}
+
+#form > input:focus{
+  outline: none;
+}
+
+#form > .btn{
+  
+  color: orange;
+  font-size: 1em;
+  cursor: pointer;
+  position: absolute;
+  width: 310px;
+  height: 60px;
+  top: 433px;
+  background: #D6B27D;
+  border-radius: 10px;
+}
+
+.flex{
+  display: flex;
+  gap: 1em;
+}
+
+.mycart{
+  position: absolute;
+  top: 100%;
+  bottom: 100%;
+  border-radius: 16px;
+}
+
+.product-img{
+    height: 92px;
+    width: 92px;
+    border-radius: 32px;
+    top:-550%;
+    bottom: 400%;
+    margin-top: 100px;
+    margin-bottom: 00px;
+
+
+}
+
+.btn-success{
+  text-align: center;
+}
+
+.product-img1{
+    height: 92px;
+    width: 92px;
+/*    top: 1430px;*/
+    border-radius: 32px;
+
+}
+
+/*.product-title{
+    height: 48px;
+    width: 376px;
+    margin-left: 240px;
+    margin-top: -430px;
+}*/
+
+.flex-col{
+  flex-direction: column;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 600px;
+  height: 512px;
+  left: 90px;
+/*  top: 641px;*/
+  border: 2px solid #F6F7FB;
+  border-radius: 48px;
+}
+
+.register .col-1{
+  margin: auto;
+  padding: 3em 0;
+}
+
+
+
+/*.register .col-2 img{
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}*/
+
+@media screen and (min-width: 860px)  {
+  .register .col-2 img{
+    display: initial;
+  }
+}
